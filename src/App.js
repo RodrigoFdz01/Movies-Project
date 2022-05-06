@@ -14,7 +14,7 @@ import Favoritos from "./Components/Favoritos/Favoritos.jsx";
 function App() {
   return (
     <BrowserRouter>
-      <Header />
+      <Header data={data} />
 
       <Routes>
         <Route
