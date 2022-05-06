@@ -26,7 +26,7 @@ function Header() {
           <ul>
             <li className={style.dropdownfirst}>
               <Link className={style.dropdownfirst} to="/">
-                Hom
+                Home
               </Link>
             </li>
             <li className={style.dropdownfirst}>
