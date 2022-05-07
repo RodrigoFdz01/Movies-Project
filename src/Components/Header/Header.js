@@ -1,16 +1,9 @@
-import React, { useState, Fragment } from "react";
+import React, { Fragment } from "react";
 import style from "./Header.module.css";
 import { Link } from "react-router-dom";
 import logo from "./logo1.png";
 
 function Header() {
-  // const [isActive, setActive] = useState("false");
-  const [input, setInput] = useState("");
-
-  function handleChange() {
-    setInput("");
-  }
-
   return (
     <Fragment>
       <nav className={style.container}>
